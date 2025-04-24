@@ -1,0 +1,813 @@
+[
+  {
+    "code": "T1-1",
+    "name": "Roadwork Ahead",
+    "description": "Warns of roadworks ahead.",
+    "category": "Temporary Warning",
+    "image": "T1-1.png"
+  },
+  {
+    "code": "T1-5",
+    "name": "Workers Ahead",
+    "description": "Alerts drivers that workers are present on or near the road.",
+    "category": "Temporary Warning",
+    "image": "T1-5.png"
+  },
+  {
+    "code": "T1-10",
+    "name": "Cyclists Dismount",
+    "description": "Cyclists must dismount and walk their bikes through the area.",
+    "category": "Temporary Warning",
+    "image": "T1-10.png"
+  },
+  {
+    "code": "T1-16",
+    "name": "Traffic Hazard",
+    "description": "Warns of potential traffic hazards ahead.",
+    "category": "Temporary Warning",
+    "image": "T1-16.png"
+  },
+  {
+    "code": "T1-34",
+    "name": "Traffic Controller",
+    "description": "Indicates presence of a traffic controller ahead.",
+    "category": "Temporary Control",
+    "image": "T1-34.png"
+  },
+  {
+    "code": "T1-200",
+    "name": "Traffic Controller (Symbolic)",
+    "description": "Symbolic representation of a traffic controller.",
+    "category": "Temporary Control",
+    "image": "T1-200.png"
+  },
+  {
+    "code": "T2-16",
+    "name": "End Roadwork",
+    "description": "Indicates the end of the roadworks zone.",
+    "category": "Temporary Warning",
+    "image": "T2-16.png"
+  },
+  {
+    "code": "T5-1",
+    "name": "Detour Ahead",
+    "description": "Indicates a detour ahead on the route.",
+    "category": "Detour",
+    "image": "T5-1.png"
+  },
+  {
+    "code": "T5-6",
+    "name": "Detour (Arrow)",
+    "description": "Detour direction indicated with an arrow.",
+    "category": "Detour",
+    "image": "T5-6.png"
+  },
+  {
+    "code": "T5-7",
+    "name": "End Detour",
+    "description": "Indicates the end of a detour route.",
+    "category": "Detour",
+    "image": "T5-7.png"
+  }
+]
+[
+  {
+    "code": "T8-SA52",
+    "name": "Cyclists Dismount",
+    "description": "Instructs cyclists to dismount and walk their bikes.",
+    "category": "Pedestrian & Cyclist Management",
+    "image": "T8-SA52.png"
+  },
+  {
+    "code": "T8-SA53",
+    "name": "Pedestrians Watch Your Step",
+    "description": "Warns pedestrians of uneven surfaces or trip hazards.",
+    "category": "Pedestrian & Cyclist Management",
+    "image": "T8-SA53.png"
+  },
+  {
+    "code": "T8-SA54",
+    "name": "Footpath Closed",
+    "description": "Indicates the footpath is closed; use alternative path.",
+    "category": "Pedestrian & Cyclist Management",
+    "image": "T8-SA54.png"
+  },
+  {
+    "code": "T8-SA56",
+    "name": "Pedestrian Arrow",
+    "description": "Directs pedestrians to the left or right (arrow version).",
+    "category": "Pedestrian & Cyclist Management",
+    "image": "T8-SA56.png"
+  },
+  {
+    "code": "T8-SA57",
+    "name": "Use Other Footpath",
+    "description": "Instructs pedestrians to use the opposite footpath.",
+    "category": "Pedestrian & Cyclist Management",
+    "image": "T8-SA57.png"
+  },
+  {
+    "code": "T8-SA59",
+    "name": "Roadwork Ahead (Multi-Message)",
+    "description": "Multi-panel sign showing Roadwork Ahead.",
+    "category": "Multi-Message",
+    "image": "T8-SA59.png"
+  },
+  {
+    "code": "T8-SA60",
+    "name": "End Roadwork (Multi-Message)",
+    "description": "Multi-panel sign showing End Roadwork.",
+    "category": "Multi-Message",
+    "image": "T8-SA60.png"
+  },
+  {
+    "code": "T8-SA61",
+    "name": "Traffic Controller Ahead / Prepare to Stop",
+    "description": "Combined message for traffic controller and stop prep.",
+    "category": "Multi-Message",
+    "image": "T8-SA61.png"
+  },
+  {
+    "code": "T8-SA62",
+    "name": "Lane Status (e.g. LANE CLOSED)",
+    "description": "Displays lane status like closure or merging.",
+    "category": "Lane Control",
+    "image": "T8-SA62.png"
+  },
+  {
+    "code": "T8-SA64",
+    "name": "ROAD CLOSED AHEAD / DETOUR AHEAD",
+    "description": "Warns of road closure and alternate detour route.",
+    "category": "Multi-Message",
+    "image": "T8-SA64.png"
+  }
+]
+[
+  {
+    "code": "R4-SA101",
+    "name": "25 km/h Speed Limit",
+    "description": "Temporary speed limit of 25 kilometers per hour.",
+    "category": "Speed Restrictions",
+    "image": "R4-SA101.png"
+  },
+  {
+    "code": "R4-SA102",
+    "name": "40 km/h Speed Limit",
+    "description": "Temporary speed limit of 40 kilometers per hour.",
+    "category": "Speed Restrictions",
+    "image": "R4-SA102.png"
+  },
+  {
+    "code": "R4-SA103",
+    "name": "60 km/h Speed Limit",
+    "description": "Temporary speed limit of 60 kilometers per hour.",
+    "category": "Speed Restrictions",
+    "image": "R4-SA103.png"
+  },
+  {
+    "code": "R4-SA104",
+    "name": "80 km/h Speed Limit",
+    "description": "Temporary speed limit of 80 kilometers per hour.",
+    "category": "Speed Restrictions",
+    "image": "R4-SA104.png"
+  },
+  {
+    "code": "T2-SA105",
+    "name": "Lane Closed",
+    "description": "Indicates a lane closure ahead.",
+    "category": "Lane Control",
+    "image": "T2-SA105.png"
+  },
+  {
+    "code": "T2-SA106",
+    "name": "Left Lane Closed",
+    "description": "Specifies the left lane is closed.",
+    "category": "Lane Control",
+    "image": "T2-SA106.png"
+  },
+  {
+    "code": "T2-SA107",
+    "name": "Right Lane Closed",
+    "description": "Specifies the right lane is closed.",
+    "category": "Lane Control",
+    "image": "T2-SA107.png"
+  },
+  {
+    "code": "T2-SA108",
+    "name": "Centre Lane Closed",
+    "description": "Indicates the centre lane is closed ahead.",
+    "category": "Lane Control",
+    "image": "T2-SA108.png"
+  },
+  {
+    "code": "T2-SA109",
+    "name": "Dynamic Lane Status",
+    "description": "Electronic sign for updating lane status dynamically.",
+    "category": "Lane Control",
+    "image": "T2-SA109.png"
+  },
+  {
+    "code": "T2-SA110",
+    "name": "Prepare to Stop - General",
+    "description": "Advance warning to prepare to stop.",
+    "category": "Warnings",
+    "image": "T2-SA110.png"
+  }
+]
+[
+  {
+    "code": "T2-SA111",
+    "name": "Advance Warning - Prepare to Stop",
+    "description": "Advance warning sign for upcoming stop requirement.",
+    "category": "Warnings",
+    "image": "T2-SA111.png"
+  },
+  {
+    "code": "T2-SA112",
+    "name": "Prepare to Stop on Red Signal",
+    "description": "Indicates drivers must be prepared to stop if red light is shown.",
+    "category": "Warnings",
+    "image": "T2-SA112.png"
+  },
+  {
+    "code": "T2-SA113",
+    "name": "Temporary Traffic Signals",
+    "description": "Warns of temporary traffic signals ahead.",
+    "category": "Warnings",
+    "image": "T2-SA113.png"
+  },
+  {
+    "code": "T2-SA114",
+    "name": "Traffic Controller Ahead",
+    "description": "Warning that a traffic controller is ahead.",
+    "category": "Traffic Controllers",
+    "image": "T2-SA114.png"
+  },
+  {
+    "code": "T3-SA100",
+    "name": "Temporary Speed Limit - 25 km/h",
+    "description": "Advisory temporary speed limit of 25 km/h.",
+    "category": "Temporary Speed Limits",
+    "image": "T3-SA100.png"
+  },
+  {
+    "code": "T3-SA101",
+    "name": "Temporary Speed Limit - 40 km/h",
+    "description": "Advisory temporary speed limit of 40 km/h.",
+    "category": "Temporary Speed Limits",
+    "image": "T3-SA101.png"
+  },
+  {
+    "code": "T3-SA102",
+    "name": "Temporary Speed Limit - 50 km/h",
+    "description": "Advisory temporary speed limit of 50 km/h.",
+    "category": "Temporary Speed Limits",
+    "image": "T3-SA102.png"
+  },
+  {
+    "code": "T3-SA103",
+    "name": "Temporary Speed Limit - 60 km/h",
+    "description": "Advisory temporary speed limit of 60 km/h.",
+    "category": "Temporary Speed Limits",
+    "image": "T3-SA103.png"
+  },
+  {
+    "code": "T3-SA104",
+    "name": "Temporary Speed Limit - 80 km/h",
+    "description": "Advisory temporary speed limit of 80 km/h.",
+    "category": "Temporary Speed Limits",
+    "image": "T3-SA104.png"
+  },
+  {
+    "code": "T3-SA105",
+    "name": "Temporary Speed Limit - 100 km/h",
+    "description": "Advisory temporary speed limit of 100 km/h.",
+    "category": "Temporary Speed Limits",
+    "image": "T3-SA105.png"
+  }
+]
+[
+  {
+    "code": "T2-16",
+    "name": "End Road Work",
+    "description": "Indicates the end of a roadwork zone.",
+    "category": "Temporary Warning",
+    "image": "T2-16.png"
+  },
+  {
+    "code": "T5-1",
+    "name": "End Detour",
+    "description": "Marks the end of a detour route.",
+    "category": "Detour",
+    "image": "T5-1.png"
+  },
+  {
+    "code": "T8-SA102",
+    "name": "Traffic Controller (Symbolic)",
+    "description": "Symbolic representation of a traffic controller ahead.",
+    "category": "Traffic Controllers",
+    "image": "T8-SA102.png"
+  },
+  {
+    "code": "T8-SA116",
+    "name": "Prepare to Stop",
+    "description": "Warns drivers to prepare to stop for traffic changes.",
+    "category": "Warnings",
+    "image": "T8-SA116.png"
+  },
+  {
+    "code": "T1-SA1",
+    "name": "Workers (Symbolic)",
+    "description": "Symbolic sign indicating presence of road workers.",
+    "category": "Construction",
+    "image": "T1-SA1.png"
+  },
+  {
+    "code": "T1-5",
+    "name": "Roadwork Ahead",
+    "description": "Warns drivers of roadwork ahead.",
+    "category": "Construction",
+    "image": "T1-5.png"
+  },
+  {
+    "code": "T2-6",
+    "name": "Roadwork Speed Limit (Symbolic)",
+    "description": "Symbolic advisory of speed limit in roadwork zone.",
+    "category": "Speed Restriction",
+    "image": "T2-6.png"
+  },
+  {
+    "code": "T5-6",
+    "name": "Detour (Symbolic)",
+    "description": "Symbolic indication of a detour route.",
+    "category": "Detour",
+    "image": "T5-6.png"
+  },
+  {
+    "code": "T5-13",
+    "name": "Detour Ahead",
+    "description": "Informs drivers that a detour is ahead.",
+    "category": "Detour",
+    "image": "T5-13.png"
+  },
+  {
+    "code": "T5-22",
+    "name": "Detour Ends",
+    "description": "Indicates the end of a detour route.",
+    "category": "Detour",
+    "image": "T5-22.png"
+  }
+]
+[
+  {
+    "code": "T7-1",
+    "name": "Advance Warning",
+    "description": "Gives advance notice of upcoming road conditions or changes.",
+    "category": "Warning",
+    "image": "T7-1.png"
+  },
+  {
+    "code": "T7-212",
+    "name": "Lane Status (Symbolic)",
+    "description": "Displays the operational status of traffic lanes.",
+    "category": "Lane Status",
+    "image": "T7-212.png"
+  },
+  {
+    "code": "T7-213",
+    "name": "Lane Closed (Symbolic)",
+    "description": "Symbolic notice that a specific traffic lane is closed.",
+    "category": "Lane Status",
+    "image": "T7-213.png"
+  },
+  {
+    "code": "T7-224",
+    "name": "Shoulder Closed (Symbolic)",
+    "description": "Indicates that the shoulder is closed to traffic.",
+    "category": "Lane Status",
+    "image": "T7-224.png"
+  },
+  {
+    "code": "T7-SA118",
+    "name": "Prepare to Stop (Symbolic)",
+    "description": "Symbolic sign warning drivers to prepare to stop.",
+    "category": "Warning",
+    "image": "T7-SA118.png"
+  },
+  {
+    "code": "T8-1",
+    "name": "Traffic Controller (Symbolic)",
+    "description": "Symbolic icon indicating a traffic controller is operating ahead.",
+    "category": "Traffic Controllers",
+    "image": "T8-1.png"
+  },
+  {
+    "code": "T8-5",
+    "name": "Slow (Symbolic)",
+    "description": "Symbolic sign directing vehicles to slow down.",
+    "category": "Traffic Controllers",
+    "image": "T8-5.png"
+  },
+  {
+    "code": "T8-8",
+    "name": "Stop (Symbolic)",
+    "description": "Symbolic stop instruction for vehicles at traffic-controlled worksites.",
+    "category": "Traffic Controllers",
+    "image": "T8-8.png"
+  }
+]
+[
+  {
+    "code": "T8-SA59",
+    "name": "Roadwork Ahead (Multi-message)",
+    "description": "Indicates that roadwork is ahead using a multi-message format.",
+    "category": "Multi-message",
+    "image": "T8-SA59.png"
+  },
+  {
+    "code": "T8-SA60",
+    "name": "End Roadwork (Multi-message)",
+    "description": "Indicates the end of a roadwork zone using a multi-message format.",
+    "category": "Multi-message",
+    "image": "T8-SA60.png"
+  },
+  {
+    "code": "T8-SA61",
+    "name": "Traffic Controller Ahead / Prepare to Stop",
+    "description": "Multi-message board warning of traffic controller and upcoming stop requirement.",
+    "category": "Multi-message",
+    "image": "T8-SA61.png"
+  },
+  {
+    "code": "T8-SA62",
+    "name": "Lane Status Signs (e.g., LANE CLOSED, FORM 1 LANE)",
+    "description": "Multi-message board displaying lane usage information or closures.",
+    "category": "Multi-message",
+    "image": "T8-SA62.png"
+  },
+  {
+    "code": "T8-SA64",
+    "name": "Road Closed Ahead, Local Traffic Only, Detour Ahead",
+    "description": "Multi-message board used to redirect traffic and inform about road closures.",
+    "category": "Multi-message",
+    "image": "T8-SA64.png"
+  }
+]
+[
+  {
+    "code": "R4-SA101",
+    "name": "Speed Limit 25 km/h",
+    "description": "Temporary regulatory sign indicating a 25 km/h speed limit.",
+    "category": "Speed Restriction",
+    "image": "R4-SA101.png"
+  },
+  {
+    "code": "R4-SA102",
+    "name": "Speed Limit 40 km/h",
+    "description": "Temporary regulatory sign indicating a 40 km/h speed limit.",
+    "category": "Speed Restriction",
+    "image": "R4-SA102.png"
+  },
+  {
+    "code": "R4-SA103",
+    "name": "Speed Limit 60 km/h",
+    "description": "Temporary regulatory sign indicating a 60 km/h speed limit.",
+    "category": "Speed Restriction",
+    "image": "R4-SA103.png"
+  },
+  {
+    "code": "R4-SA104",
+    "name": "Speed Limit 80 km/h",
+    "description": "Temporary regulatory sign indicating an 80 km/h speed limit.",
+    "category": "Speed Restriction",
+    "image": "R4-SA104.png"
+  }
+]
+[
+  {
+    "code": "R4-SA105",
+    "category": "Speed Restrictions",
+    "description": "Speed Limit 100 km/h (SA style)",
+    "image": "R4-SA105.png",
+    "type": "Regulatory",
+    "standard": "SA"
+  },
+  {
+    "code": "R4-SA106",
+    "category": "Speed Restrictions",
+    "description": "Speed Limit 110 km/h (SA style)",
+    "image": "R4-SA106.png",
+    "type": "Regulatory",
+    "standard": "SA"
+  },
+  {
+    "code": "R4-SA107",
+    "category": "Speed Restrictions",
+    "description": "Speed Limit 70 km/h (SA style)",
+    "image": "R4-SA107.png",
+    "type": "Regulatory",
+    "standard": "SA"
+  },
+  {
+    "code": "R4-SA108",
+    "category": "Speed Restrictions",
+    "description": "Speed Limit 90 km/h (SA style)",
+    "image": "R4-SA108.png",
+    "type": "Regulatory",
+    "standard": "SA"
+  },
+  {
+    "code": "R4-SA109",
+    "category": "Speed Restrictions",
+    "description": "Speed Limit 30 km/h (SA style)",
+    "image": "R4-SA109.png",
+    "type": "Regulatory",
+    "standard": "SA"
+  },
+  {
+    "code": "R4-SA110",
+    "category": "Speed Restrictions",
+    "description": "Speed Limit 20 km/h (SA style)",
+    "image": "R4-SA110.png",
+    "type": "Regulatory",
+    "standard": "SA"
+  }
+]
+[
+  {
+    "code": "T2-SA105",
+    "category": "Lane Status",
+    "description": "Lane Closed",
+    "image": "T2-SA105.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T2-SA106",
+    "category": "Lane Status",
+    "description": "Left Lane Closed",
+    "image": "T2-SA106.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T2-SA107",
+    "category": "Lane Status",
+    "description": "Right Lane Closed",
+    "image": "T2-SA107.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T2-SA108",
+    "category": "Lane Status",
+    "description": "Centre Lane Closed",
+    "image": "T2-SA108.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T2-SA109",
+    "category": "Lane Status",
+    "description": "Lane Status Variable (used for dynamic lane displays)",
+    "image": "T2-SA109.png",
+    "type": "Temporary",
+    "standard": "SA"
+  }
+]
+[
+  {
+    "code": "T2-SA110",
+    "category": "Warning",
+    "description": "Prepare to Stop (General)",
+    "image": "T2-SA110.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T2-SA111",
+    "category": "Advance Warning",
+    "description": "Advance Warning – Prepare to Stop",
+    "image": "T2-SA111.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T2-SA112",
+    "category": "Warning",
+    "description": "Prepare to Stop on Red Signal",
+    "image": "T2-SA112.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T2-SA113",
+    "category": "Temporary Traffic Signals",
+    "description": "Prepare to Stop – Temporary Traffic Signals",
+    "image": "T2-SA113.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T2-SA114",
+    "category": "Traffic Controller",
+    "description": "Traffic Controller Ahead – Prepare to Stop",
+    "image": "T2-SA114.png",
+    "type": "Temporary",
+    "standard": "SA"
+  }
+]
+[
+  {
+    "code": "T3-SA100",
+    "category": "Speed Limit",
+    "description": "Temporary Speed Limit – 25 km/h",
+    "image": "T3-SA100.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T3-SA101",
+    "category": "Speed Limit",
+    "description": "Temporary Speed Limit – 40 km/h",
+    "image": "T3-SA101.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T3-SA102",
+    "category": "Speed Limit",
+    "description": "Temporary Speed Limit – 50 km/h",
+    "image": "T3-SA102.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T3-SA103",
+    "category": "Speed Limit",
+    "description": "Temporary Speed Limit – 60 km/h",
+    "image": "T3-SA103.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T3-SA104",
+    "category": "Speed Limit",
+    "description": "Temporary Speed Limit – 80 km/h",
+    "image": "T3-SA104.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T3-SA105",
+    "category": "Speed Limit",
+    "description": "Temporary Speed Limit – 100 km/h",
+    "image": "T3-SA105.png",
+    "type": "Temporary",
+    "standard": "SA"
+  }
+]
+[
+  {
+    "code": "T8-SA102",
+    "category": "Symbolic Sign",
+    "description": "Traffic Controller Ahead – Symbolic",
+    "image": "T8-SA102.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T8-SA116",
+    "category": "Warning",
+    "description": "Prepare To Stop – Symbolic",
+    "image": "T8-SA116.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T8-SA1",
+    "category": "Symbolic Sign",
+    "description": "Workers – Symbolic",
+    "image": "T8-SA1.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T8-SA5",
+    "category": "Symbolic Sign",
+    "description": "Slow – Symbolic",
+    "image": "T8-SA5.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T8-SA8",
+    "category": "Symbolic Sign",
+    "description": "Stop – Symbolic",
+    "image": "T8-SA8.png",
+    "type": "Temporary",
+    "standard": "SA"
+  }
+]
+[
+  {
+    "code": "T7-1",
+    "category": "Advance Warning",
+    "description": "Advance Warning Symbolic – General",
+    "image": "T7-1.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T7-212",
+    "category": "Lane Status",
+    "description": "Lane Status – Symbolic",
+    "image": "T7-212.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T7-213",
+    "category": "Lane Closed",
+    "description": "Lane Closed – Symbolic",
+    "image": "T7-213.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T7-224",
+    "category": "Shoulder Closed",
+    "description": "Shoulder Closed – Symbolic",
+    "image": "T7-224.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T7-SA118",
+    "category": "Warning",
+    "description": "Prepare to Stop – Symbolic",
+    "image": "T7-SA118.png",
+    "type": "Temporary",
+    "standard": "SA"
+  }
+]
+[
+  {
+    "code": "T8-1",
+    "category": "Traffic Controller",
+    "description": "Traffic Controller – Symbolic",
+    "image": "T8-1.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T8-5",
+    "category": "Traffic Controller",
+    "description": "SLOW – Symbolic (Handheld)",
+    "image": "T8-5.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T8-8",
+    "category": "Traffic Controller",
+    "description": "STOP – Symbolic (Handheld)",
+    "image": "T8-8.png",
+    "type": "Temporary",
+    "standard": "SA"
+  }
+]
+[
+  {
+    "code": "T2-16",
+    "category": "Worksite Exit",
+    "description": "End Road Work",
+    "image": "T2-16.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T5-1",
+    "category": "Detour",
+    "description": "End Detour",
+    "image": "T5-1.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T8-SA102",
+    "category": "Traffic Control",
+    "description": "Traffic Controller – Symbolic",
+    "image": "T8-SA102.png",
+    "type": "Temporary",
+    "standard": "SA"
+  },
+  {
+    "code": "T8-SA116",
+    "category": "Advance Warning",
+    "description": "Prepare to Stop – Advance Symbolic",
+    "image": "T8-SA116.png",
+    "type": "Temporary",
+    "standard": "SA"
+  }
+]

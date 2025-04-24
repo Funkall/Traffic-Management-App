@@ -1,0 +1,152 @@
+[
+  {
+    "code": "T1-5",
+    "description": "Workers Ahead (symbolic)",
+    "category": "Advance Warning"
+  },
+  {
+    "code": "T1-18",
+    "description": "Prepare to Stop",
+    "category": "Advance Warning"
+  },
+  {
+    "code": "T1-34",
+    "description": "Traffic Controller Ahead",
+    "category": "Controller Site"
+  },
+  {
+    "code": "T1-10",
+    "description": "Traffic Hazard",
+    "category": "Emergency Use"
+  },
+  {
+    "code": "T5-1(L)",
+    "description": "Detour Left",
+    "category": "Detour"
+  },
+  {
+    "code": "T5-1(R)",
+    "description": "Detour Right",
+    "category": "Detour"
+  },
+  {
+    "code": "T2-24",
+    "description": "Two Way Traffic",
+    "category": "Traffic Direction"
+  },
+  {
+    "code": "T2-25",
+    "description": "Trucks Entering/Exiting",
+    "category": "Site Access"
+  },
+  {
+    "code": "T7-1",
+    "description": "Stop/Slow Bat",
+    "category": "Manual Controller"
+  },
+  {
+    "code": "R6-6",
+    "description": "Stop Here on Red Signal",
+    "category": "Signal Control"
+  },
+  {
+    "code": "W3-3",
+    "description": "Signals Ahead",
+    "category": "Signal Control"
+  },
+  {
+    "code": "T1-30",
+    "description": "Signals Ahead (Temporary version)",
+    "category": "Signal Control"
+  },
+  {
+    "code": "T3-2",
+    "description": "Side Road Closed",
+    "category": "Closure"
+  },
+  {
+    "code": "T3-3",
+    "description": "Road Closed",
+    "category": "Closure"
+  },
+  {
+    "code": "T1-12",
+    "description": "Roadwork Ahead",
+    "category": "Worksite Entry"
+  },
+  {
+    "code": "T4-2",
+    "description": "40 Ahead",
+    "category": "Speed Warning"
+  },
+  {
+    "code": "R4-1",
+    "description": "Speed Limit",
+    "category": "Regulatory"
+  },
+  {
+    "code": "T4-4",
+    "description": "End Roadwork / Resume Speed",
+    "category": "Worksite Exit"
+  },
+  {
+    "code": "T1-40",
+    "description": "Steel Plates in Use",
+    "category": "Surface Hazard"
+  },
+  {
+    "code": "T1-9",
+    "description": "Traffic Conditions Changed",
+    "category": "General Warning"
+  },
+  {
+    "code": "T1-19",
+    "description": "Drive Safely",
+    "category": "Encouragement"
+  },
+  {
+    "code": "T1-35",
+    "description": "Merge Left",
+    "category": "Transition"
+  },
+  {
+    "code": "T1-36",
+    "description": "Merge Right",
+    "category": "Transition"
+  },
+  {
+    "code": "R6-1",
+    "description": "No Overtaking or Passing",
+    "category": "Regulatory"
+  },
+  {
+    "code": "T1-SA2",
+    "description": "Footpath Closed",
+    "category": "Pedestrian"
+  },
+  {
+    "code": "T1-SA3",
+    "description": "Use Other Footpath",
+    "category": "Pedestrian"
+  },
+  {
+    "code": "T1-39",
+    "description": "Watch Your Step",
+    "category": "Pedestrian"
+  },
+  {
+    "code": "T1-38A",
+    "description": "Temporary Speed Hump",
+    "category": "Worksite Control"
+  },
+  {
+    "code": "T1-SA4",
+    "description": "Pedestrian Detour",
+    "category": "Pedestrian"
+  },
+  {
+    "code": "T1-SA5",
+    "description": "Pedestrian Hazard",
+    "category": "Pedestrian"
+  }
+]
